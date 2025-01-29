@@ -8,13 +8,7 @@ export default function HeaderInterno() {
   return (
     <header className="bg-colorPrimary text-white flex items-center justify-between w-full px-4 sm:px-8 py-4">
       {/* Logo */}
-      <Image
-        src={logo}
-        alt="Logo SETDIG"
-        width={120}
-        height={32}
-        style={{ height: "auto", width: "auto" }} // Mantém o aspecto da imagem
-      />
+      
 
       {/* Dropdown Menu */}
       <div className="dropdown dropdown-end">

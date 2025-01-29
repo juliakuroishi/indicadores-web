@@ -23,15 +23,7 @@ export default function Home() {
         </div>
 
         {/*Parte da esquerda: logo */}
-        <div className="hidden lg:block relative w-1/2">
-          <Image
-            src={logo}
-            alt="Logo"
-            width={174}
-            height={48}
-            className="absolute bottom-36 right-0.5"
-          />
-        </div>
+        
       </div>
 
       {/*Parte da direita: nota geral*/}
